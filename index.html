@@ -4,19 +4,55 @@
     <meta charset="utf-8">
       <title>css Basics</title>
       <style>
-        h1 {
-          color:purple;
-        }
-        p {
-          color:red;
-        }
         body {
           background-color: dodgerblue;
+        }
+        h1 {
+          color:#FF0000; /* red, (255, 0, 0)*/
+          border-style: solid;
+          border-width: 1px;
+          border-color:red
+        p }
+        {
+          color:red;
+        }
+        p.important {
+          width:75%;
+        }
+        .purple-text {
+          color:red;
+        }
+        .important {
+          font-weight:bold;
+        }
+        .important:hover {
+          background-color:pink;
+        }
+        #lead-paragraph {
+          color:purple;
+          font-weight:bold;
+        }
+
+        a[href="https://imagecomics.com"] {
+          background-color:#0000FF;
+          padding:1rem;
+        }
+        a[href="https://storm.wnba.com/"] {
+          /*background-color:green;*/
+        }
+        img {
+          border: dashed orange 3px;
+          width:25%;
         }
       </style>
   </head>
   <body>
-    <h1>Welcome!</h1>
-    <p>Everything is fine!</p>
+    <h1>Welcome! </h1>
+    <p class="purple-text">Everything is fine!</p>
+    <p class="purple-text important">No really, the world is not filled with hopelessness and dispair. I promise.</p>
+    <p id="lead-paragraph"> The world is a happy and sensible place.</p>
+    <a href="https://storm.wnba.com/">National WNBA Champions, Settle Storm</a>
+    <a href="https://imagecomics.com">Check out some independent comics</a>
+    <img src="images/kitten-wooden-bowl.jpeg" alt="An adorable image of a gray kitten sleeping in a brown wooden bamboo bowl."
   </body>
 </html>
