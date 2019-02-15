@@ -9,6 +9,8 @@ h1 {
 p }
 {
   color:red;
+  font-size:1em;
+  text-decoration: underline;
 }
 p.important {
   width:75%;
